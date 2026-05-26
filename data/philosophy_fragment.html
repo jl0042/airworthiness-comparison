@@ -1,0 +1,33 @@
+<div class="card">
+  <h4 style="font-family:var(--font-serif-zh);font-size:17px;font-weight:600;color:var(--ink);margin-bottom:10px">一: 保护对象从舱内乘员切到地面第三方</h4>
+  <p style="font-size:14.5px;line-height:1.95;color:var(--ink);margin-bottom:8px">整章删除最密集的几条都是为舱内人员服务的: <b>23.2315 撤离设施和应急出口 / 23.2320 乘员物理环境 / 23.2605 安装和使用 / 23.2615 飞行、导航和动力装置仪表</b>, 在 UMR / UPL 里都没有对应章节。同时新增的 <b>UMR.2306 / UPL.2306 伞降系统 · UMR.2311 / UPL.2311 鸟撞 · 2335 闪电与静电防护 · 2340 外挂物 · 2350 外部货物载荷</b>, 全是「飞机本身要避免砸到地面或货物要锁好」这一类。</p>
+  <p style="font-size:14.5px;line-height:1.95;color:var(--ink)">监管承认: 不载人之后, 飞机本身解体造成的乘员伤害归零, 但落地点不可控 + 货物可能脱落, 这两条变成新的硬约束。</p>
+  <div class="source">依据: 主对比 CSV「整章删除」13 条中编号 2315 / 2320 / 2605 / 2615 / 2620 / 2140 / 2420 / 2005 / 2001 / 2700 / 2705 / 2710 / 2800; 「新增」102 条中 D 章新增编号 2306 / 2311 / 2335 / 2340 / 2350。</div>
+</div>
+
+<div class="card">
+  <h4 style="font-family:var(--font-serif-zh);font-size:17px;font-weight:600;color:var(--ink);margin-bottom:10px">二: 驾驶舱整体搬到地面</h4>
+  <p style="font-size:14.5px;line-height:1.95;color:var(--ink);margin-bottom:8px">G 章「飞行机组界面 / 飞行、导航和动力装置仪表 / 安装和使用」这几条整章删除, 但内容并没消失 — 它们搬到了 <b>R 章遥控台 / 地面站</b> (21 条新增, 编号 UMR.5000–5315 / UPL.5000–5315)。从机组界面到指示显示、通信、数据记录、电力供应、防火、闪电防护、应急撤离, 全部在地面控制室重做一遍。</p>
+  <p style="font-size:14.5px;line-height:1.95;color:var(--ink)">所以「不载人」并不等于「省一章」, 而是「把驾驶舱章迁出去」。R 章实质上是 CCAR-23 给驾驶舱的所有要求, 在地面的镜像。</p>
+  <div class="source">依据: 主对比 CSV「整章删除」编号 2600 / 2605 / 2615; 「新增」R 章编号 5000 / 5110 / 5115 / 5120 / 5125 / 5130 / 5135 / 5140 / 5145 / 5150 / 5155 / 5200 / 5205 / 5210 / 5215 / 5220 / 5230 / 5300 / 5305 / 5310 / 5315 (共 21 条)。</div>
+</div>
+
+<div class="card">
+  <h4 style="font-family:var(--font-serif-zh);font-size:17px;font-weight:600;color:var(--ink);margin-bottom:10px">三: 链路 / 围栏 / 自主避让被纳入硬性适航</h4>
+  <p style="font-size:14.5px;line-height:1.95;color:var(--ink);margin-bottom:8px">有人机适航不写「无线电链路」、不写「围栏」、不写「机载自主避撞」 — 这些过去要么由飞行员直接处置 (链路就是耳朵), 要么由营运指南 (TCAS 是营运层面) 管。UMR / UPL 把它们提到设备层 + 系统层:</p>
+  <ul style="margin:8px 0 8px 24px;font-size:14px;line-height:1.95;color:var(--gray-1)">
+    <li><b>L 章 C2 指挥控制链路</b> (5 条, 编号 4100 / 4105 / 4110 / 4115 / 4120): 链路性能、监控、安保、持续适航文件全独立成章</li>
+    <li><b>F 章 探测与避让</b> (1 条, 编号 2580): 把过去飞行员目视看的 see-and-avoid, 改成机载传感器 + 软件做的 detect-and-avoid</li>
+    <li><b>F 章 电子围栏</b> (1 条, 编号 2570): 飞控里的软约束, 不让飞机飞出预设区域</li>
+    <li><b>F 章 网络安保</b> (1 条, 编号 2565): 防止系统被网络渗透造成的物理失控</li>
+  </ul>
+  <p style="font-size:14.5px;line-height:1.95;color:var(--ink)">这四块加起来, 是无人机适航相对有人机最显眼的新东西 — 监管第一次给航空器的「软件 / 链路 / 网络」写出硬性合格审定要求。</p>
+  <div class="source">依据: 主对比 CSV「新增」中编号 2565 / 2570 / 2580 (F 章 3 条) + L 章 4100–4120 (5 条)。这 8 条在 CCAR-23 / 27 里完全没有对应条款。</div>
+</div>
+
+<div class="card">
+  <h4 style="font-family:var(--font-serif-zh);font-size:17px;font-weight:600;color:var(--ink);margin-bottom:10px">四: 电推进从「补充章」升格为「主章」</h4>
+  <p style="font-size:14.5px;line-height:1.95;color:var(--ink);margin-bottom:8px">CCAR-23 给电推进只在 H 章列了 3 条 (23.2700 电推进系统 / 23.2705 电池和配电 / 23.2710 电池电动力系统防火), 整章删除掉之后, UMR / UPL 把电推扩展成: <b>H 章 电动发动机 40 条</b> (台架试验 / 持久演示 / 超扭试验 / 超温试验 / 振动 / 包容性 / 分解检查……) + <b>I 章 螺旋桨 24 条</b> (强度 / 离心载荷 / 鸟撞 / 疲劳极限 / 超转超扭……)。</p>
+  <p style="font-size:14.5px;line-height:1.95;color:var(--ink)">CCAR-23 H 章的 3 条被替换为 UMR / UPL 共 64 条电推进细则。这是监管承认了「电动 + 螺旋桨」是无人机的默认动力, 不再是「正常类飞机的补充」, 而要给出独立的台架试验和耐久性证据。</p>
+  <div class="source">依据: 主对比 CSV「整章删除」中编号 2700 / 2705 / 2710 (CCAR-23 旧 H 章 3 条); 「新增」H 章编号 3304 / 3305 / 3307 / 3308 / 3315 / 3317 / 3319 / 3321 / 3323 / 3325 / 3326 / 3327 / 3328 / 3329 / 3362 / 3363 / 3364 / 3370 / 3371 / 3373 / 3374 / 3375 / 3377 / 3383 / 3384 / 3385 / 3387 / 3388 / 3389 / 3390 / 3391 / 3392 / 3393 / 3394 / 3395 / 3399 (40 条) + I 章编号 3501 / 3503 / 3504 / 3505 / 3507 / 3515 / 3516 / 3517 / 3521 / 3522 / 3523 / 3524 / 3533 / 3534 / 3535 / 3536 / 3537 / 3540 / 3541 / 3542 / 3543 (21 条)。</div>
+</div>
